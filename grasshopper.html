@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="해마건축 Grasshopper Plug-in">
+    <title>해마건축 Grasshopper</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <nav class="top-nav" id="top-nav">
+        <ul class="nav-menu">
+            <li class="nav-menu-item"><a href="index.html">ArchiCAD</a></li>
+            <li class="nav-menu-item active"><a href="grasshopper.html">Grasshopper</a></li>
+            <li class="nav-menu-item"><a href="#">HAEMA Apps</a></li>
+        </ul>
+        <div class="nav-spacer"></div>
+        <div class="search-bar" id="search-bar">
+            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" class="search-input" id="search-input" placeholder="Search" autocomplete="off">
+        </div>
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="메뉴 열기">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+        </button>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="page-content" id="main-content">
+        <div class="card-grid">
+            <a href="site-modeling.html" class="card">
+                <div class="card-image">
+                    <img src="Grasshopper 페이지 이미지/1.png" alt="사이트 모델링 자동화">
+                </div>
+                <h3 class="card-title">사이트 모델링 자동화</h3>
+            </a>
+            <a href="sunlight-review.html" class="card">
+                <div class="card-image">
+                    <img src="Grasshopper 페이지 이미지/3.png" alt="일조시간 검토">
+                </div>
+                <h3 class="card-title">일조시간 검토</h3>
+            </a>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
